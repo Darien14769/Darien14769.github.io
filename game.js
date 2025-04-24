@@ -92,7 +92,7 @@ function update() {
     reposo = true;
   }
 
-  console.log(reposo);
+ 
 }
 
 // if (this.keys.left.isDown) {
