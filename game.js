@@ -73,6 +73,11 @@ function create() {
   });
 
   this.keys = this.input.keyboard.createCursorKeys();
+
+  this.sound.context.suspend().then(() => {
+    console.log("Audio suspendido manualmente al inicio");
+  });
+  
 }
 let reposo = true;
 function update() {
